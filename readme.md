@@ -13,7 +13,7 @@ It includes a PHP image resizing mechanism, and a JavaScript gallery.
 
 ## Compatibility
 
-Markdown is built for all modern browsers and IE8+.
+Markdown is built for all modern browsers and IE7+.
 
 ## Installation
 
