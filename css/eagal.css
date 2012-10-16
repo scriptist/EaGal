@@ -1,0 +1,31 @@
+.eagal-gallery {position:relative;}
+.eagal-container {bottom:0; left:0; position:absolute; right:0; top:0;}
+.eagal-container img {width:100%; position:absolute;}
+
+.eagal-thumbsContainer {bottom:12px; font-size:0; left:12px; overflow:hidden; position:absolute; right:12px; white-space:nowrap;}
+.eagal-thumbsContainer img {border:3px solid #666; border:3px solid rgba(0, 0, 0, 0.4); border-radius:3px; margin-right:10px; position:relative;}
+
+.eagal-loader {background:#222; background:rgba(0, 0, 0, 0.6); border-radius:5px; height:60px; left:50%; margin-left:-30px; margin-top:-60px; position:absolute; top:50%; width:59px;}
+.eagal-loader:after {content:url(../img/loader.gif); left:0; position:absolute; top:0;}
+
+.eagal-rightArrow,
+.eagal-leftArrow {background:url(../img/arrow.svg); cursor:pointer; height:120px; margin-top:-100px; opacity:0; position:absolute; top:50%; width:50px;}
+.eagal-gallery:hover .eagal-rightArrow,
+.eagal-gallery:hover .eagal-leftArrow {opacity:0.6;}
+
+.eagal-rightArrow,
+.eagal-leftArrow {
+	transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s; /* Firefox 4 */
+	-webkit-transition: opacity 0.2s; /* Safari and Chrome */
+	-o-transition: opacity 0.2s; /* Opera */}
+.eagal-rightArrow:hover,
+.eagal-leftArrow:hover {opacity:1;}
+.eagal-rightArrow {right:10px;}
+.eagal-leftArrow {
+	left:10px;
+	transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+}
